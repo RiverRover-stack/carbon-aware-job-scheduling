@@ -1,0 +1,22 @@
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Local environment files
+.env
+.env.*
+
+# Project-local generated file
+job.py
